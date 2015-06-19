@@ -2,14 +2,12 @@
          This document has 3 components
 		 1. Gives the R code that will import the "tidy data" 
 		 2. Gives the R code that generated the CodeBook
-		 3. Detailed escription of run.analysis.R
+		 3. Detailed description of run.analysis.R
 ##########
 		
 ########
 		The R code to import the "tidy data" 
-		THE PATH NEEDS TO BE CHANGED APPROPRIATELY!!
-		data <- read.table("F:/Cleaning Data/Project/har_average.txt", header = TRUE)
-		head(data)
+		data <- read.table("har_average.txt", header = TRUE)
 ########
 
 ########
