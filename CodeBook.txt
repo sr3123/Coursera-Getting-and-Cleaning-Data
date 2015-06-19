@@ -1,3 +1,31 @@
+Brief Summary of the experiment
+1. The experiment was carried out with a group of 30 volunteers. 
+2. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING). 
+3. 3-axial linear acceleration and 3-axial angular velocity were captured.
+
+Original variables
+1. The original variables came from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ 
+   (prefix 't' to denote time). The acceleration signal was then separated into body and gravity acceleration signals 
+   (tBodyAcc-XYZ and tGravityAcc-XYZ). 
+2. Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals 
+  (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated 
+  (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). 
+3. Finally an FFT was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, 
+   fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (The 'f' indicates frequency domain signals). 
+4. Additional variables computed the mean and standard deviation of certain measurements. 
+   The Means of these variables formed the new database.
+
+Original Database
+1. There were 10299 rows and 563 columns
+2. Variables: Subject, Activity, 561 measurement variables described above
+
+Current Database
+1. There are 180 rows for every pair of Subject (30) and Activity (6)
+2. There are 68 columns: 2 (Subject x Activity) and 66 computed variables
+3. The computed variables (displayed below) are averages as explained above
+4. For example, the 3rd variable below "tBodyAcc-mean()-X" should be read as 
+   "The Mean of the Means of tBodyacc along the X axis for a SubjectxActivity pair"
+
 VARIABLE                            VARIABLE DESCRIPTION
 subjectID                           subjectID
 activityName                        activityName
