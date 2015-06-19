@@ -1,5 +1,7 @@
 ### The script comprises several blocks of code each delineated by 3 hash marks on top and at the bottom
 ### There are several "housekeeping" blocks removing data frames that are no longer necessary
+### To access/save the data, the complete path name has been given:
+### Example: read.table("F:/Cleaning Data/Project/getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/test/X_test.txt")
 
 run_analysis <- function() 
 {
